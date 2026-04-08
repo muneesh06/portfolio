@@ -29,7 +29,7 @@ export const metadata = {
     title: "Muneesh | AI / ML Engineer",
     description:
       "Building clean, useful AI systems with a focus on retrieval and planning.",
-    url: "https://github.com/muneesh06",
+    url: "https://portfolio-mu-two-5xehgfsuzz.vercel.app/",
     siteName: "Muneesh Portfolio",
     images: [
       {
