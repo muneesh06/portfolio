@@ -1,20 +1,32 @@
 import "./globals.css";
-import { Manrope, Space_Grotesk } from "next/font/google";
+import { Syne, DM_Sans, DM_Mono } from "next/font/google";
 
-const display = Space_Grotesk({
+const display = Syne({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-display",
+  display: "swap",
 });
 
-const body = Manrope({
+const body = DM_Sans({
   subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  style: ["normal", "italic"],
   variable: "--font-body",
+  display: "swap",
+});
+
+const mono = DM_Mono({
+  subsets: ["latin"],
+  weight: ["300", "400"],
+  variable: "--font-mono",
+  display: "swap",
 });
 
 export const metadata = {
   title: "Muneesh | AI / ML Engineer",
   description:
-    "Portfolio of Muneesh - AI/ML engineer focused on RAG systems, LLM tooling, and clean full stack delivery.",
+    "Portfolio of Sai Muneesh Puligundla — AI/ML engineer focused on RAG systems, LLM tooling, and clean full-stack delivery.",
   keywords: [
     "AI Engineer",
     "Machine Learning",
@@ -23,8 +35,10 @@ export const metadata = {
     "Full Stack Developer",
     "Next.js Portfolio",
     "FastAPI",
+    "PyTorch",
+    "LangChain",
   ],
-  authors: [{ name: "Muneesh" }],
+  authors: [{ name: "Sai Muneesh Puligundla" }],
   openGraph: {
     title: "Muneesh | AI / ML Engineer",
     description:
@@ -49,9 +63,7 @@ export const metadata = {
       "Building clean, useful AI systems with a focus on retrieval and planning.",
     images: ["/ai-profile.png"],
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({
@@ -61,7 +73,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${display.variable} ${body.variable} antialiased`}>
+      <body
+        className={`${display.variable} ${body.variable} ${mono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
