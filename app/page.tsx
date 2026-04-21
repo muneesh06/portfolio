@@ -395,7 +395,7 @@ export default function Home() {
                 >
                   <a href="#projects" className="btn-primary">View work →</a>
                   <a href="https://www.linkedin.com/in/muneeshp" target="_blank" rel="noreferrer" className="btn-outline">LinkedIn ↗</a>
-                  <a href="mailto:puligundla.4@wright.edu" className="btn-outline">Email me</a>
+                  <a href="mailto:muneesh.puligundla@gmail.com" className="btn-outline">Email me</a>
                 </motion.div>
 
                 <motion.div
@@ -636,7 +636,7 @@ export default function Home() {
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(230px,1fr))", gap: "0.875rem" }} className="reveal reveal-d3">
             {[
-              { label: "EMAIL",    value: "puligundla.4@wright.edu",  href: "mailto:puligundla.4@wright.edu",       accent: "violet" },
+              { label: "EMAIL",    value: "muneesh.puligundla@gmail.com",  href: "mailto:muneesh.puligundla@gmail.com",       accent: "violet" },
               { label: "PHONE",    value: "+1 (937) 219-0695",         href: "tel:+19372190695",                      accent: "gold"   },
               { label: "LINKEDIN", value: "in/muneeshp",               href: "https://www.linkedin.com/in/muneeshp", accent: "cyan"   },
               { label: "GITHUB",   value: "muneesh06",                 href: "https://github.com/muneesh06",         accent: "violet" },
