@@ -114,7 +114,7 @@ const projects = [
 ];
 
 const certifications = [
-  "Microsoft Engineer Program (In Progress) - AI Engineer (2025-2026)",
+  "Microsoft Engineer Program - AI Engineer (2025-2026)",
   "Microsoft Certified: Power Platform Fundamentals (PL-900) - Nov 2023",
   "Microsoft Certified: Dynamics 365 Fundamentals CRM (MB-910) - Oct 2023",
   "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900) - Aug 2023",
